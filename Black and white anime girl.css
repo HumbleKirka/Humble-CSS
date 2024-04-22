@@ -3,7 +3,6 @@
 :root {
     --asscentColor: #fff;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: var(--asscentColor);
 }
@@ -14,12 +13,12 @@
         background: transparent !important;
         border-radius: 10px;
 } 
-/* Logo */
-#logo{
-visibility: hidden;
- z-index:1;
+/* Removes Logo  */
+.interface .logo {
+    width: auto;
+  visibility: hidden;
+    z-index: 1;
 }
-
 /* Transparent */
 .box,
 .input,
